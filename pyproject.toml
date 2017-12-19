@@ -6,8 +6,6 @@ build-backend = "flit.buildapi"
 module = "flasky"
 author = "sohail yunus shaik"
 author-email = "sohail.yunusha1@gmail.com"
-home-page = "I dont have any"
+home-page = "https://gitlab.com/sohailsha1"
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires = ["Werkzeug"]
-requires-python="3"
-
