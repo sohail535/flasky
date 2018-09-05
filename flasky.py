@@ -1,5 +1,6 @@
 import os
 import importlib
+import types
 from werkzeug import Request, Response
 from werkzeug.exceptions import HTTPException, NotFound
 from werkzeug.routing import Map, Rule
@@ -28,7 +29,7 @@ class Flasky:
     def make_response(self, rv, environ):
         if isinstance(rv, Response):
             return rv
-        if isinstance(rv, str):
+        if isinstance(rv, types.StringTypes):
             return Response(rv)
         if isinstance(rv, tuple):
             return Response(*rv)
@@ -46,8 +47,6 @@ class Flasky:
             else:
                 obj = endpoint()
                 return getattr(obj, request.method)(**values)
-
-            return 'hello world'
         except HTTPException as e:
             return e
 
