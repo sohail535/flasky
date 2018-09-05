@@ -5,6 +5,7 @@ from werkzeug import Request, Response
 from werkzeug.exceptions import HTTPException, NotFound
 from werkzeug.routing import Map, Rule
 
+__version__ = '0.0.2'
 
 class Flasky:
     """The flasky object implements a WSGI application and acts as the
