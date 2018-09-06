@@ -21,7 +21,7 @@ Make sure you use it in a **virtual env**.
 How to use it?
 --------------
 
-.. code-block::
+.. code-block:: python
 
     # hello.py
     from flasky import Flasky
