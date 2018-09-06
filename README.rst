@@ -26,7 +26,7 @@ How to use it?
 
     class Hello:
         def GET(self):
-            return 'Hello world!!'
+            return 'fasakkk!!'
 
     class Greet:
         def GET(self, message):
