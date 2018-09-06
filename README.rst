@@ -30,8 +30,13 @@ How to use it?
         def GET(self):
             return 'Hello world!!'
     
+    class Greet:
+        def GET(self, message):
+            return 'Hello ' + message + '!!'
+            
     urls = [
-        ('/', Hello)
+        ('/', Hello),
+        ('/greet/<message>', Greet)
     ]
     
     app = Flasky(urls)
