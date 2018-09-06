@@ -7,7 +7,7 @@ Trying to understand how python web frameworks work by copying the famous `flask
 How to install?
 ---------------
 
-Create a `virtual env` and install `flit`
+Create a ``virtual env`` and install ``flit``
 
 .. code-block::
 
