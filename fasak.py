@@ -7,8 +7,8 @@ from werkzeug.routing import Map, Rule
 
 __version__ = '0.0.2'
 
-class Flasky:
-    """The flasky object implements a WSGI application and acts as the
+class Fasak:
+    """The fasak object implements a WSGI application and acts as the
     central object. It is passed the name of the module or package of
     the application. One it is created it will act as the central
     registry for the view classes.

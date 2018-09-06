@@ -3,9 +3,9 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
-module = "flasky"
+module = "fasak"
 author = "sohail yunus shaik"
 author-email = "sohail.yunusha1@gmail.com"
-home-page = "https://gitlab.com/sohailsha1"
+home-page = "https://github.com/sohail535/flasky"
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires = ["Werkzeug"]
