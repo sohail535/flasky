@@ -7,16 +7,14 @@ Trying to understand how python web frameworks work by copying the famous `flask
 How to install?
 ---------------
 
-**This is not supposed to be used anywhere**, so install it on your own interest.
-
-Make sure you use it in a **virtual env**.
+Create a `virtual env` and install `flit`
 
 .. code-block::
 
-    pip install flit
-    git clone git@gitlab.com:sohailsha1/flasky.git
-    cd flasky
-    flit install --symlink
+    $ pip install flit
+    $ git clone git@gitlab.com:sohailsha1/flasky.git
+    $ cd flasky
+    $ flit install --symlink
     
 How to use it?
 --------------
