@@ -12,7 +12,7 @@ Create a ``virtual env`` and install ``flit``
 .. code-block::
 
     $ pip install flit
-    $ git clone git@gitlab.com:sohailsha1/fasak.git
+    $ git@github.com:sohail535/fasak.git
     $ cd fasak
     $ flit install --symlink
 
