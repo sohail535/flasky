@@ -1,5 +1,5 @@
 ======
-Fasak
+Flasky
 ======
 
 Trying to understand how python web frameworks work by copying the famous *flask* micro framework.
@@ -12,8 +12,8 @@ Create a ``virtual env`` and install ``flit``
 .. code-block::
 
     $ pip install flit
-    $ git@github.com:sohail535/fasak.git
-    $ cd fasak
+    $ git@github.com:sohail535/flasky.git
+    $ cd flasky
     $ flit install --symlink
 
 How to use it?
@@ -22,11 +22,11 @@ How to use it?
 .. code-block:: python
 
     # hello.py
-    from fasak import Fasak
+    from flasky import Flasky
 
     class Hello:
         def GET(self):
-            return 'fasakkk!!'
+            return 'Hello flasky!!'
 
     class Greet:
         def GET(self, message):
@@ -37,7 +37,7 @@ How to use it?
         ('/greet/<message>', Greet)
     ]
 
-    app = Fasak(urls)
+    app = Flasky(urls)
 
     if __name__ == '__main__':
         app.debug = True
